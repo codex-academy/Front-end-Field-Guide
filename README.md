@@ -33,10 +33,12 @@ There are a lot of technologies and tools bouncing around, and more new things c
   * Images
   * Templating
 * CSS
+  * Inline, Internal, and External
   * Naming conventions
   * Frameworks
   * Preprocessors
 * JavaScript
+  * Inline, Internal, and External
   * Libraries and Frameworks
   * Things that compile to JavaScript
 * Task runners
