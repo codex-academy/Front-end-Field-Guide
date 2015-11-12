@@ -1,6 +1,6 @@
 # Front-end-Field-Guide
 
-> An illustrated guide to the weird and wonderful world and Front-end Development.
+> An illustrated guide to the weird and wonderful world of Front-end Development.
 
 There are a lot of technologies and tools bouncing around, and more new things come out every day. Rather than trying to make an exhaustive, constantly updating, list of things that a Front-endian needs to know, this Field Guide tries to focus on the bigger principles that last for a while.
 
