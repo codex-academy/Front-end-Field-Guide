@@ -54,6 +54,8 @@ Doing Mobile First Responsive Web Design brings some additional benefits: easier
 
 ## Future Friendly
 
+Being [Future Friendly](https://www.futurefriendly.co.za/) is all about accepting the unknown, unpredictable, nature of building things for the web. We don't know what device or network a person will be using, or whether they're using any assistive technology. All we know is that we don't know. Future Friendly was put forward as a way to handle this overwhelming diversity:
+
 * Acknowledge and embrace unpredictability.
 * Think and behave in a [future-friendly](https://www.futurefriendly.co.za/) way.
 * Help others do the same.
