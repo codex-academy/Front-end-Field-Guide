@@ -21,8 +21,8 @@ Cons
 
 ## HTML
 
-* Use the right element
-
+* Use the right element: semantics matter.
+* Use as little markup as possible.
 
 ### HTML5
 
@@ -49,10 +49,11 @@ Prefer to move into HTML, CSS, and JS sooner rather than later and build [Front-
 
 * don't use `!important`
 * don't use IDs
-* use the cascade
+* do use the cascade
 * don't over-qualify selectors
-* use friendly formatting
-* non-jQ animation
+* do use friendly formatting
+* do use CSS for animation instead of JavaScript
+* do write as little CSS as possible
 
 ### Naming conventions
 
