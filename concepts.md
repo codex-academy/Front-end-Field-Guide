@@ -2,7 +2,7 @@
 
 ## One Web
 
-Websites should be built so that people can access them quickly and easily, regardless of the device they're using, the type of connection they are on, or any disabilities they have. That means building things with **Progressive Enhancement**.
+Websites should be built so that people can access them quickly and easily, regardless of the device they're using, the type of connection they are on, or any disabilities they have. That means building things with **Progressive Enhancement**, and embracing the [fluid nature of the web](http://alistapart.com/article/dao).
 
 ## Progressive Enhancement
 
@@ -30,13 +30,27 @@ The important thing to note is that the are levels of optimisation to apply. You
 
 ## Responsive Web Design
 
-Don't use device-specific breakpoints. Let your content decide your breakpoints.
+The term Responsive web design was coined by [Ethan Marcotte](http://unstoppablerobotninja.com/) back in May of 2010 in [an article for A List Apart](http://alistapart.com/article/responsive-web-design). He put forward three keys aspects:
 
-Build squishy things.
+1. a fluid grid;
+2. flexible images;
+3. media queries.
+
+These things together let us make fluid, squishy, web sites that will be happy whatever screen size they're displayed on.
+
+In practical terms, this means:
+
+1. use `%`s instead of `px` when specifying widths of containers;
+2. add `max-width: 100%; height: auto;` to let your images shrink to their containers, and use `srcset` or the `picture` elements to provide the browser with different sized images;
+3. use media queries to change type size and layout depending on the size of the screen.
+
+An important thing to remember is not to use device-specific breakpoints. Use your content to decide the breakpoints, and specify them in fluid units like `em`s.
 
 ## Mobile First
 
-Content first, navigation second.
+Luke Wroblewski has written extensively on [his site](http://www.lukew.com/), and in [his book](http://www.lukew.com/resources/mobile_first.asp), about designing Mobile First. Start with a small screen, and make your content, design, and development decisions there. The thinking behind it is that focusing on mobile gives us a strongest set of constraints and forces us to make the difficult decisions.
+
+Doing Mobile First Responsive Web Design brings some additional benefits: easier support for devices that don't support media queries, usually older phones. Your initial styles are loaded without any media queries. Then, more advanced styles are loaded in use media queries as a qualifier (e.g. `media (min-width: 30em)`).
 
 ## Future Friendly
 
