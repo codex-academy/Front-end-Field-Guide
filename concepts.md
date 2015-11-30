@@ -14,8 +14,19 @@ Front-end performance and accessibility are important, so running regular perfor
 
 ### Cutting the Mustard
 
-Levels of optimisation.
-Support everything, optimise for your audience.
+[Cutting the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) (when referring to JavaScript) was coined by the team working on the responsive redesign of the BBC news website. They provide a basic experience for all browsers, serving HTML, images, and CSS. Then, for browsers that are modern enough, they serve the enhanced, JavaScript-powered version. They do this using the following test:
+
+```javascript
+if('querySelector' in document
+   && 'localStorage' in window
+   && 'addEventListener' in window) {
+   // bootstrap the javascript application
+}
+```
+
+They picked those critera based on the things the features that their app used. If you cut the mustard in your own project, you might just test for `querySelector` and `addEventListener` support.
+
+The important thing to note is that the are levels of optimisation to apply. Your site should support every browser, but the amount of time you spend optimising for particular browsers and feature sets should depend on your audience.
 
 ## Responsive Web Design
 
