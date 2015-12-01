@@ -68,6 +68,12 @@ That means that when we're building a website, we prefer fewer, larger, HTTP req
 
 ### Inline, Internal, and External (CSS and JS)
 
+You can write inline CSS by adding it HTML elements (`<p style="color: red;">Help!</p>`), by adding it on a page (`<style>p { color: red; }</style>`), or by including it as an external file (`<link rel="stylesheet" href="style.css" />`).
+
+Similar things are true for where you add your JavaScript. You can write JS inline (`<p onClick="help()">Help!</a>`), by adding it on a page (`<script>console.log('Help!');</script>`), or by including it as an external file (`<script src="help.js"></script>`).
+
+For both CSS and JavaScript, the last way is by far the best. It lets you write modular, reusable, code. The first two methods mean you have to make updates in multiple places, and might struggle to keep things consistent.
+
 ### Caching
 
 ### Concatenation, Minification, Gzip
