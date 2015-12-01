@@ -80,17 +80,9 @@ The fastest request for a resource (like an image, a CSS file, or a JavaScript f
 
 ### Concatenation, Minification, Gzip
 
-## User Experience
-
-* Auto-playing anything. Let users control their own experience.
-
-### Heuristics
-
-### Usability Testing
+So that we serve fewer files to the user, we can concatenate assets into one or two CSS and JavaScript files. To reduce the files sizes, we can use minification (the process of removing extra whitespace and line breaks, and more). To make these files even smaller, we can enable gzip on our server: this sends a compressed resource that's then decompressed once it reaches the user.
 
 ## Process
-
-Style Tiles
 
 ### Front-end Style Guides
 
