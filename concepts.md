@@ -76,6 +76,8 @@ For both CSS and JavaScript, the last way is by far the best. It lets you write 
 
 ### Caching
 
+The fastest request for a resource (like an image, a CSS file, or a JavaScript file) is the one that doesn't get made: if the file is served from the cache instead of from the network. Setting far future expiry dates on caches can work well when combined with updating the filenames when the contents change.
+
 ### Concatenation, Minification, Gzip
 
 ## User Experience
