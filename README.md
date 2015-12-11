@@ -18,9 +18,6 @@ There are a lot of technologies and tools bouncing around, and more new things c
   * Inline, Internal, and External (CSS and JS)
   * Caching
   * Concatenation, Minification, Gzip
-* User Experience
-  * Heuristics
-  * Usability Testing
 * Process
   * Front-end Style Guides
 
