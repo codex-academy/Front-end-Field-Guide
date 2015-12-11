@@ -18,12 +18,17 @@ Frameworks also have some Cons. They:
 
 ## HTML
 
-* Use the right element: semantics matter.
-* Use as little markup as possible.
+* Use the appropriate element: semantics matter. Buttons should be `<button>`s, and links should be `<a href="">`s, not styled `<div>`s or `<span>`s.
+* Use as little markup as possible. Rather than adding an extra element, see if it's possible to add CSS to an existing element instead.
 
 ### HTML5
 
-### Accessiblity
+* Use HTML5 elements like `nav` and `main`.
+* Use new form features like `<input typ="email" >` and the `required` attribute.
+
+These give you extra semantics and improve accessibility.
+
+### Accessibility
 
 ### Metadata
 
