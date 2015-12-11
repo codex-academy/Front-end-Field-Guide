@@ -1,23 +1,20 @@
 # Technology and tools
 
-Friendly formatting.
-
 ## Frameworks
 
-* Don't use them by default.
-* Who does this help? Me or my users?
+Frameworks can be useful, but be wary of using them by default. Think carefully about the problem you're solving by using a particular framework, and about the cost of using it to your team, and to your users.
 
-Pros
+Frameworks have some Pros. They:
 
-* Makes complex things simple(r)
-* Well maintained, well tested
+* can make complex things simple(r);
+* are often Well maintained and well tested.
 
-Cons
+Frameworks also have some Cons. They:
 
-* Adds a dependency
-* Can be overkill
-* Can be painful to upgrade
-* Solving their problem(s), not yours
+* add a dependency to your project;
+* can be overkill for the problem you are trying to solve;
+* can be painful to upgrade;
+* are solving someone else's problem, not yours.
 
 ## HTML
 
@@ -111,5 +108,7 @@ jQuery Cons
 ## Code quality and readability
 
 #### Linting and Hinting
+
+Friendly formatting.
 
 #### Style Guides
