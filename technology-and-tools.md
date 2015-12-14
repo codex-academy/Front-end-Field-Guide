@@ -30,6 +30,10 @@ These give you extra semantics and improve accessibility.
 
 ### Accessibility
 
+Many people browse the web using assistive technology such as screen readers, or use a keyboard to move around pages instead of a mouse or trackpad.
+
+Using semantically correct HTML elements gives you a lot of baked-in accessibility, but you can add WAI-ARIA (Web Accessibility Initiative Accessible Rich Internet Applications) markup to provide extra information about your page, such as landmark `role`s to allow users to jump between sections of your site.
+
 ### Metadata
 
 ### Images
