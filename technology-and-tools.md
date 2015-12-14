@@ -44,11 +44,9 @@ Images take up most of the size of a web page. It's important to [use the right 
 
 Look at using the `srcset`and `sizes` attributes for `img` to provide different size images for different size screens. If you need to show different pictures (or different crops of the same image) at different screen sizes, look at the `picture` element.
 
-### Templating
-
 ## CSS
 
-CSS should be kept in a few, minified, external CSS files. Don't use inline style blocks or write inline CSS.
+CSS should be kept in a few, minified, external CSS files. Don't use inline style blocks or write inline CSS. (There is an exception to this guideline: when your CSS is very, very, small and can be included in the document so that the page has one less HTTP request)
 
 Write CSS like [SMACSS](http://www.smacss.com/). CSS is organised into: Base; Layout; (lots of) Modules; States. Kepp nesting shallow, and never use IDs for styling.
 
