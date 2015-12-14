@@ -64,18 +64,17 @@ Prefer to move into HTML, CSS, and JS sooner rather than later and build [Front-
 
 ### Naming conventions
 
-* Names that make sense to you, future you, and your team.
+* Use names that make sense to you, future you, and your team.
 * Describe the purpose, not the properties.
 
 ### Frameworks
 
-* roll your own framework, but borrow from the best.
-* bootstrap et al
-* de-bootstrapping: learn from the pieces and make your own.
+* Roll your own framework, but borrow from the best.
+* Look at [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), and other frameworks for ideas.
 
 ### Preprocessors
 
-Keep it simple: variables, imports, mixins, better Media Queries.
+[Sass](http://sass-lang.com/), [Less](http://lesscss.org/), and other preprocessors can be helpful for writing CSS. Remember to keep it simple, though. Think about just using variables, imports, mixins, and (the more friendly way of using) Media Queries.
 
 ## JavaScript
 
