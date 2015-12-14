@@ -39,8 +39,6 @@ There are a lot of technologies and tools bouncing around, and more new things c
   * Inline, Internal, and External
   * Libraries and Frameworks
 * Testing
-  * Test Frameworks
-  * PageSpeed and WebPageTest
 
 
 ---
