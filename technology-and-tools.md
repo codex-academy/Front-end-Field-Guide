@@ -78,31 +78,11 @@ Prefer to move into HTML, CSS, and JS sooner rather than later and build [Front-
 
 ## JavaScript
 
-Write unobtrusive, js-hinted, JS. Keep all JS in a few, minified, external files.Don't use inline script blocks or write inline JS. Only include [jQuery](http://jquery.com/) when really necessary; prefer vanilla JavaScript code and [micro-frameworks](http://microjs.com/).
+Write unobtrusive, js-hinted, JS. Keep all JS in a few, minified, external files. Don't use inline script blocks or write inline JS. Only include [jQuery](http://jquery.com/) when really necessary; prefer vanilla JavaScript code and [micro-frameworks](http://microjs.com/). It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable.
 
-[Cut the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) to serve less capable browsers just the core, lighter and faster, experience, rather than send them lots of code they will struggle to run.
+[Cut the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) to serve less capable browsers just the core, lighter and faster, experience, rather than send them lots of code they will struggle to run. Use the JavaScript features that your application needs in your feature tests, and use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content) to test the features that each component will use.
 
-Use as little JS as you can, and optimise it a lot.
-
-* JSHint, JSCS
-* non-jQ animation
-
-### Libraries and Frameworks
-
-* jQuery vs JS
-
-jQuery Pros
-
-* Avoid bugs (even in modern browsers)
-* CDNs
-
-jQuery Cons
-
-* [Parse and execution time can be slow](http://timkadlec.com/2014/09/js-parse-and-execution-time/)
-*
-
-
-### Things that compile to JavaScript
+The most important thing is to use as little JS as you can, and optimise it a lot, because [parse and execution time can be slow](http://timkadlec.com/2014/09/js-parse-and-execution-time/).
 
 ## Task runners
 
