@@ -40,8 +40,9 @@ Another way to provide extra information to users is to add structured metadata,
 
 ### Images
 
-* Use the right format
-* Use the right size
+Images take up most of the size of a web page. It's important to [use the right format](http://designingforperformance.com/optimizing-images/#choosing-an-image-format) for the type of image, and to provide the smallest size that you can using [response images](https://responsiveimages.org/).
+
+Look at using the `srcset`and `sizes` attributes for `img` to provide different size images for different size screens. If you need to show different pictures (or different crops of the same image) at different screen sizes, look at the `picture` element.
 
 ### Templating
 
