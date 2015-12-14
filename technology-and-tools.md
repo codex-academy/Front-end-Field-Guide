@@ -36,6 +36,8 @@ Using semantically correct HTML elements gives you a lot of baked-in accessibili
 
 ### Metadata
 
+Another way to provide extra information to users is to add structured metadata, such [Schema.org](http://schema.org/) markup. This allows services to parse and read your data more correctly, and can [enhance the display of your site in search results ](https://developers.google.com/structured-data/).
+
 ### Images
 
 * Use the right format
