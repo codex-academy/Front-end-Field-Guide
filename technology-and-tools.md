@@ -50,6 +50,8 @@ CSS should be kept in a few, minified, external CSS files. Don't use inline styl
 
 Write CSS like [SMACSS](http://www.smacss.com/). CSS is organised into: Base; Layout; (lots of) Modules; States. Keep nesting shallow, and never use IDs for styling.
 
+It can help to use a style guide to keep your code consistent and readable. Check your code for errors and complexity using something like [CSS Lint](http://csslint.net/).
+
 Make sites Responsive by default as a Future Friendly measure.
 
 Prefer to move into HTML, CSS, and JS sooner rather than later and build [Front-end Style Guides](http://styleguides.io/) (something like [Pattern Lab](http://patternlab.io/)) that evolve into pages and templates.
@@ -78,26 +80,18 @@ Prefer to move into HTML, CSS, and JS sooner rather than later and build [Front-
 
 ## JavaScript
 
-Write unobtrusive, js-hinted, JS. Keep all JS in a few, minified, external files. Don't use inline script blocks or write inline JS. Only include [jQuery](http://jquery.com/) when really necessary; prefer vanilla JavaScript code and [micro-frameworks](http://microjs.com/). It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable.
+Write unobtrusive, js-hinted, JS. Keep all JS in a few, minified, external files. Don't use inline script blocks or write inline JS. Only include [jQuery](http://jquery.com/) when really necessary; prefer vanilla JavaScript code and [micro-frameworks](http://microjs.com/).
+
+It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable. Check your code for errors and complexity using something like [JS Hint](http://jshint.com/).
 
 [Cut the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) to serve less capable browsers just the core, lighter and faster, experience, rather than send them lots of code they will struggle to run. Use the JavaScript features that your application needs in your feature tests, and use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content) to test the features that each component will use.
 
 The most important thing is to use as little JS as you can, and optimise it a lot, because [parse and execution time can be slow](http://timkadlec.com/2014/09/js-parse-and-execution-time/).
-
-## Task runners
 
 ## Testing
 
 ### Test Frameworks
 
 ### PageSpeed and WebPageTest
-
-## Version Control
-
-## Code quality and readability
-
-#### Linting and Hinting
-
-Friendly formatting.
 
 #### Style Guides

@@ -38,15 +38,9 @@ There are a lot of technologies and tools bouncing around, and more new things c
 * JavaScript
   * Inline, Internal, and External
   * Libraries and Frameworks
-  * Things that compile to JavaScript
-* Task runners
 * Testing
   * Test Frameworks
   * PageSpeed and WebPageTest
-* Version Control
-* Code quality and readability
-    * Linting and Hinting
-    * Style Guides
 
 
 ---
