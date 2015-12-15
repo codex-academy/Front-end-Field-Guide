@@ -14,7 +14,7 @@ Front-end performance and accessibility are important, so running regular perfor
 
 ### Cutting the Mustard
 
-[Cutting the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) (when referring to JavaScript) was coined by the team working on the responsive redesign of the BBC news website. They provide a basic experience for all browsers, serving HTML, images, and CSS. Then, for browsers that are modern enough, they serve the enhanced, JavaScript-powered version. They do this using the following test:
+[Cutting the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) (when referring to JavaScript) was coined by the team working on the responsive redesign of the BBC news website. They provide a basic experience for all browsers, serving HTML, images, and CSS. Then, for browsers that are modern enough, they serve the enhanced, JavaScript-powered version. By doing this, they avoid sending less capable browsers code that they will struggle to run. They use the following test:
 
 ```javascript
 if('querySelector' in document
@@ -24,7 +24,7 @@ if('querySelector' in document
 }
 ```
 
-They picked those critera based on the things the features that their app used. If you cut the mustard in your own project, you might just test for `querySelector` and `addEventListener` support.
+They picked those criteria based on the things the features that their app used. If you cut the mustard in your own project, you might just test for `querySelector` and `addEventListener` support. You should use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content) to test the features that each component will use.
 
 The important thing to note is that the are levels of optimisation to apply. Your site should support every browser, but the amount of time you spend optimising for particular browsers and feature sets should depend on your audience.
 

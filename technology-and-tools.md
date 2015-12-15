@@ -84,8 +84,6 @@ Write unobtrusive, js-hinted, JS. Keep all JS in a few, minified, external files
 
 It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable. Check your code for errors and complexity using something like [JS Hint](http://jshint.com/).
 
-[Cut the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) to serve less capable browsers just the core, lighter and faster, experience, rather than send them lots of code they will struggle to run. Use the JavaScript features that your application needs in your feature tests, and use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content) to test the features that each component will use.
-
 The most important thing is to use as little JS as you can, and optimise it a lot, because [parse and execution time can be slow](http://timkadlec.com/2014/09/js-parse-and-execution-time/).
 
 ## Testing
