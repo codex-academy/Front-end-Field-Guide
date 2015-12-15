@@ -49,7 +49,7 @@ Look at using the `srcset`and `sizes` attributes for `img` to provide different 
 
 CSS should be kept in a few, minified, external CSS files. Don't use inline style blocks or write inline CSS. (There is an exception to this guideline: when your CSS is very, very, small and can be included in the document so that the page has one less HTTP request)
 
-It can help to use a style guide to keep your code consistent and readable. Check your code for errors and complexity using something like [CSS Lint](http://csslint.net/). Use [SMACSS](http://www.smacss.com/) as a guideline for writing your CSS. Organise your files into: Base; Layout; (lots of) Modules; States.
+It can help to use a style guide to keep your code consistent and readable. Check your code for errors and complexity using something like [CSS Lint](http://csslint.net/) (there's [an example file](./.csslintrc) in this Guide). Use [SMACSS](http://www.smacss.com/) as a guideline for writing your CSS. Organise your files into: Base; Layout; (lots of) Modules; States.
 
 ### Guidelines
 
@@ -70,7 +70,7 @@ It can help to use a style guide to keep your code consistent and readable. Chec
 
 Write unobtrusive JS. Keep all JS in a few, minified, external files. Don't use inline script blocks or write inline JS. Only include [jQuery](http://jquery.com/) when really necessary, since [parse and execution time of large JS files can be slow](http://timkadlec.com/2014/09/js-parse-and-execution-time/). Prefer vanilla JavaScript code and [micro-frameworks](http://microjs.com/). Before including a library to polyfill a feature, considering the cost to your users.
 
-It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable. Check your code for errors and complexity using something like [JS Hint](http://jshint.com/).
+It can help to use [a style guide](http://jscs.info/) to keep your code consistent and readable (there's [an example file](./.jscsrc) in this Guide). Check your code for errors and complexity using something like [JS Hint](http://jshint.com/) (there's [an example file](./.jshintrc) in this Guide).
 
 ## Testing
 
