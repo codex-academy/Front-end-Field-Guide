@@ -25,19 +25,12 @@ There are a lot of technologies and tools bouncing around, and more new things c
 
 * Frameworks
 * HTML
-  * HTML5
   * Accessiblity
-  * Metadata
   * Images
-  * Templating
 * CSS
-  * Inline, Internal, and External
-  * Naming conventions
-  * Frameworks
+  * Guidelines
   * Preprocessors
 * JavaScript
-  * Inline, Internal, and External
-  * Libraries and Frameworks
 * Testing
 
 
