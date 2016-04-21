@@ -1,43 +1,35 @@
-## Agenda
-
-# Concepts
-# Technology and Tools
+# *Front-end Overview*
 
 ---
-
-# Concepts
-
----
-
-## Concepts
 
 # One Web
 # Responsive Web Design
 # Performance
+# Frameworks
 
 ---
 
-# **One Web**
+# *One Web*
 
 ^ device, connection, disabilities
 
 ---
 
-## One Web
+## **One Web**
 # Device
 
 ^ different input methods and capabilities
 
 ---
 
-## One Web
+## **One Web**
 # Connection
 
 ^ WiFi, cell signal
 
 ---
 
-## One Web
+## **One Web**
 # Disabilities
 
 ^ blind web users, old people, people with injury
@@ -89,7 +81,7 @@ if('querySelector' in document
 
 ---
 
-# **Responsive Web Design**
+# *Responsive Web Design*
 
 ---
 
@@ -99,19 +91,19 @@ if('querySelector' in document
 
 ---
 
-## Responsive Web Design
+## **Responsive Web Design**
 
 # flexible images
 
 ---
 
-## Responsive Web Design
+## **Responsive Web Design**
 
 # media queries
 
 ---
 
-## fluid grid
+## **fluid grid**
 
 # `%` instead of `px`
 
@@ -119,7 +111,7 @@ if('querySelector' in document
 
 ---
 
-## flexible images
+## **flexible images**
 
 # add `max-width: 100%; height: auto;`
 
@@ -127,13 +119,10 @@ if('querySelector' in document
 
 ---
 
-## media queries
+## **media queries**
 
-```css
-@media (min-width: 60em) {
-  /* styles for wide screen */
-}
-```
+## @media (min-width: 60em) {<br>...<br>}
+
 
 ^ like font size and layout
 breakpoints
@@ -146,7 +135,7 @@ breakpoints
 
 ---
 
-# **Performance**
+# *Performance*
 
 ---
 
@@ -212,22 +201,76 @@ breakpoints
 
 ---
 
-# External best
+# External is best
 
 # modular, reusable, code
 
 ---
 
-# Concatenation, Minification, Gzip
+# Concatenation
+# Minification
+# Gzip
 
 ---
 
-# Technology and Tools
+
+# *Frameworks*
+
+^ Pros and Cons
 
 ---
 
-## Technology and Tools
+## Frameworks: Pros
 
-# Frameworks
-# HTML, CSS, JavaScript
-# Testing
+# can make complex things simpler
+
+---
+
+## Frameworks: Pros
+
+# often well maintained and well tested
+
+---
+
+## Frameworks: Cons
+
+# add a dependency to your project
+
+---
+
+## Frameworks: Cons
+
+# can be overkill for the problem you are trying to solve
+
+---
+
+## Frameworks: Cons
+
+# can be painful to upgrade
+
+---
+
+## Frameworks: Cons
+
+# can have a steep learning curve
+
+---
+
+## Frameworks: Cons
+
+# are solving someone else's problem, not yours
+
+---
+
+# Roll your own framework, but borrow
+
+# Bootstrap
+# Foundation
+
+---
+
+# fef.projectcodex.co
+
+---
+
+# *Front-end Overview*
