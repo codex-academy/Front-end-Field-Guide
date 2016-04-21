@@ -8,7 +8,7 @@ Robust websites should be built with a separation of concerns: HTML for structur
 
 ## Progressive Enhancement
 
-A basic, functional, experience is delivered to everyone; JavaScript is not required for any key functionality. Feature tests in JavaScript are used to load in additional CSS and JS enhancements for browsers that pass the tests. It's important that these are treated as an enhancement rather than a fallback: we build a solid foundation and layer on enhancements. Different browsers will be served different experience; they will be consistent and may be quite similar, but will not be identical.
+A basic, functional, experience is delivered to everyone; JavaScript is not required for any key functionality. Feature tests in JavaScript are used to load in additional CSS and JS enhancements for browsers that pass the tests. It's important that these are treated as an enhancement rather than a fallback: we build a solid foundation and layer on enhancements. Different browsers will be served different experiences; they will be consistent and may be quite similar, but will not be identical.
 
 Rather than grading browsers, we [grade components](https://www.filamentgroup.com/lab/grade-the-components.html). This provides each browser with the best experience it can handle. We use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content).
 
