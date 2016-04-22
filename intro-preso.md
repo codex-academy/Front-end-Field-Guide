@@ -36,11 +36,15 @@
 
 ---
 
+# caniuse.com
+
+---
+
 # Progressive Enhancement
 
 ---
 
-# The Triangle
+![fit](triangle.png)
 
 ^ HTML for structured content
 CSS for presentation
@@ -57,15 +61,24 @@ JavaScript for behaviour
 ---
 
 # Feature tests in JS
+# do more stuff and / or
 # load in enhancements
 
 ^ for browsers that pass the tests
 
 ---
 
-# Cutting the Mustard
+# lolcatStorage
+
+```javascript
+if('localStorage' in window) {
+   // fancy stuff with localStorage
+}
+```
 
 ---
+
+# Cutting the Mustard
 
 ```javascript
 if('querySelector' in document
@@ -76,6 +89,7 @@ if('querySelector' in document
 ```
 
 ---
+
 
 # Support vs Optimisation
 
@@ -88,41 +102,44 @@ if('querySelector' in document
 ## Responsive Web Design
 
 # fluid grid
-
----
-
-## **Responsive Web Design**
-
 # flexible images
-
----
-
-## **Responsive Web Design**
-
 # media queries
 
 ---
 
-## **fluid grid**
+# fluid grid
 
-# `%` instead of `px`
+```css
+.half {
+  width: 50%;
+}
+```
 
 ^ when specifying widths of containers
 
 ---
 
-## **flexible images**
+# flexible images
 
-# add `max-width: 100%; height: auto;`
+```css
+img {
+  max-width: 100%;
+  height: auto;
+}
+```
 
 ^ to let your images shrink to their containers, and use `srcset` or the `picture` elements to provide the browser with different sized images;
 
+
 ---
 
-## **media queries**
+# media queries
 
-## @media (min-width: 60em) {<br>...<br>}
-
+```css
+@media (min-width: 60em) {
+  /* adjust stuff */
+}
+```
 
 ^ like font size and layout
 breakpoints
@@ -220,45 +237,20 @@ breakpoints
 
 ---
 
-## Frameworks: Pros
+# Frameworks: Pros
 
-# can make complex things simpler
-
----
-
-## Frameworks: Pros
-
-# often well maintained and well tested
+^ can make complex things simpler
+often well maintained and well tested
 
 ---
 
-## Frameworks: Cons
+# Frameworks: Cons
 
-# add a dependency to your project
-
----
-
-## Frameworks: Cons
-
-# can be overkill for the problem you are trying to solve
-
----
-
-## Frameworks: Cons
-
-# can be painful to upgrade
-
----
-
-## Frameworks: Cons
-
-# can have a steep learning curve
-
----
-
-## Frameworks: Cons
-
-# are solving someone else's problem, not yours
+^ add a dependency to your project
+can be overkill for the problem you are trying to solve
+can be painful to upgrade
+can have a steep learning curve
+are solving someone else's problem, not yours
 
 ---
 
