@@ -1,4 +1,11 @@
+# What is Front-end<br>(web dev)?
+
+---
+
 # *Front-end Overview*
+
+^ Whirlwind, whistlestop tour
+
 
 ---
 
@@ -36,11 +43,9 @@
 
 ---
 
-# caniuse.com
-
----
-
 # Progressive Enhancement
+
+^ What is it?
 
 ---
 
@@ -52,50 +57,28 @@ JavaScript for behaviour
 
 ---
 
-# A basic, functional, experience is delivered to everyone
+# HTML5, CSS3
+
+^ HTML, CSS updating, changing
+modular
 
 ---
 
-# Different browsers will be served different experiences
+# Pre- and post-processors
 
----
+# CSS: Sass, Less
+# JS: Coffescript, Typescript
 
-# Feature tests in JS
-# do more stuff and / or
-# load in enhancements
-
-^ for browsers that pass the tests
-
----
-
-# lolcatStorage
-
-```javascript
-if('localStorage' in window) {
-   // fancy stuff with localStorage
-}
-```
-
----
-
-# Cutting the Mustard
-
-```javascript
-if('querySelector' in document
-   && 'localStorage' in window
-   && 'addEventListener' in window) {
-   // bootstrap the javascript application
-}
-```
-
----
-
-
-# Support vs Optimisation
+^ Always compiles into CSS or JS
+that's all that browsers read
+Command line (or task runner: more on that later)
 
 ---
 
 # *Responsive Web Design*
+
+^ What is it?
+What are the three bits?
 
 ---
 
@@ -128,7 +111,8 @@ img {
 }
 ```
 
-^ to let your images shrink to their containers, and use `srcset` or the `picture` elements to provide the browser with different sized images;
+^ to let your images shrink to their containers
+`srcset`, `picture`: save data 
 
 
 ---
@@ -148,17 +132,21 @@ breakpoints
 
 # Mobile First
 
-^ Start with a small screen, and make your content, design, and development decisions there. The thinking behind it is that focusing on mobile gives us the strongest set of constraints and forces us to make difficult decisions early.
+^ What is it?
+content, design, and development
+mobile gives us the strongest set of constraints
 
 ---
 
 # *Performance*
 
+^ What is it?
+
 ---
 
-# latency harsher than bandwidth
+# latency<br>harsher than<br>bandwidth
 
-^ load time is more affected by number of network requests than the size of the file
+^ round trip time vs download speed
 
 ---
 
@@ -169,7 +157,7 @@ breakpoints
 # Inline
 
 ```html
-<p style="color: red;">Help!</p>`
+<p style="color: red;">Help!</p>
 ```
 
 ---
@@ -177,7 +165,9 @@ breakpoints
 # Internal
 
 ```html
-<style>p { color: red; }</style>
+<style>
+	p { color: red; }
+</style>
 ```
 
 ---
@@ -218,9 +208,19 @@ breakpoints
 
 ---
 
+# Which method is best?
+
+^ Pros and Cons
+
+---
+
 # External is best
 
-# modular, reusable, code
+# modular, reusable,<br>more performant
+
+^ easier to write
+maintain
+send to user
 
 ---
 
@@ -228,8 +228,20 @@ breakpoints
 # Minification
 # Gzip
 
+^ What is each
+Why good?
+How to do?
+
 ---
 
+# Grunt
+# Gulp
+# npm scripts
+
+^ JavaScript task runners
+Like CLI, but lots of options
+
+---
 
 # *Frameworks*
 
@@ -239,25 +251,28 @@ breakpoints
 
 # Frameworks: Pros
 
-^ can make complex things simpler
-often well maintained and well tested
+^ * can make complex things simpler
+* often well maintained and well tested
+* fast start up
 
 ---
 
 # Frameworks: Cons
 
-^ add a dependency to your project
-can be overkill for the problem you are trying to solve
-can be painful to upgrade
-can have a steep learning curve
-are solving someone else's problem, not yours
+^ * add a dependency to your project
+* can be overkill for the problem you are trying to solve
+* can be painful to upgrade
+* can have a steep learning curve
+* are solving someone else's problem, not yours
 
 ---
 
 # Roll your own framework, but borrow
 
-# Bootstrap
-# Foundation
+# Bootstrap, Foundation
+# Sites you like
+
+^ How to start building your own?
 
 ---
 
@@ -265,4 +280,9 @@ are solving someone else's problem, not yours
 
 ---
 
-# *Front-end Overview*
+# Front-end Style Guides
+# Atomic Design
+
+---
+
+# *What next?*
