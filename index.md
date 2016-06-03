@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Front-end Field Fuide
+title: Front-end Field Guide
 ---
 
 # Front-end-Field-Guide
