@@ -1,3 +1,8 @@
+---
+layout: default
+title: Technology and tools
+---
+
 # Technology and tools
 
 ## Frameworks

@@ -1,0 +1,8 @@
+# Site settings
+title: Front-end Field Guide
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jemoji

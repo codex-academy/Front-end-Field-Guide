@@ -1,3 +1,8 @@
+---
+layout: default
+title: Concepts
+---
+
 # Concepts
 
 ## One Web
