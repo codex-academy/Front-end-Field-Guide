@@ -5,7 +5,7 @@ title: HTML
 
 # HTML
 
-* Use the appropriate element: semantics matter. Headings should use `<h1>` down to `<h6>`, buttons should be `<button>`s,  links should be `<a href="">`s not styled `<div>`s or `<span>`s, and lists should be `ul`s or `ol`s.
+* Use the right element: semantics matter. Headings should use `<h1>` down to `<h6>`, buttons should be `<button>`s,  links should be `<a href="">`s not styled `<div>`s or `<span>`s, and lists should be `ul`s or `ol`s.
 * Use as little markup as possible. Rather than adding an extra element, see if it's possible to apply CSS to an existing element instead.
 * Use HTML5 elements like `nav` and `main`.
 * Use HTML5 form features like `<input type="email" >` and the `required` attribute.

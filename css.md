@@ -5,12 +5,14 @@ title: CSS
 
 # CSS
 
-CSS should be kept in a few, minified, external CSS files. Don't use inline style blocks or write inline CSS. (There is an exception to this guideline: when your CSS is very, very, small and can be included in the document so that the page has one less HTTP request)
+<!--coxex ignore very-->
+CSS should be kept in a few, minified, external CSS files. Don't use inline style blocks or write inline CSS. (There's an exception to this guideline: when your CSS is very, very, small and can be included in the document so that the page has one less HTTP request)
 
 It can help to use a style guide to keep your code consistent and readable. Check your code for errors and complexity using something like [CSS Lint](http://csslint.net/) (there's [an example file](./.csslintrc) in this Guide). Use [SMACSS](http://www.smacss.com/) as a guideline for writing your CSS. Organise your files into: Base; Layout; (lots of) Modules; States.
 
 ## Guidelines
 
+<!--codex ignore simple-->
 * Use CSS in places of images where possible.
 * Keep selectors simple (use `nav a` instead of `nav ul li a`), and don't over-qualify them (use `.news` instead of `div.news`)
 * Use shorthand. Use `padding: 1em 2em` instead of individual padding properties.
@@ -21,4 +23,5 @@ It can help to use a style guide to keep your code consistent and readable. Chec
 
 ## Preprocessors
 
-[Sass](http://sass-lang.com/), [Less](http://lesscss.org/), and other preprocessors can be helpful for writing CSS. Remember to keep it simple, though. Think about just using variables, imports, mixins, and (the more friendly way of using) Media Queries.
+<!--codex ignore simple-->
+[Sass](http://sass-lang.com/), [Less](http://lesscss.org/), and other preprocessors can be helpful for writing CSS. Remember to keep it simple, though. Think about only using variables, imports, mixins, and (the more friendly way of using) Media Queries.

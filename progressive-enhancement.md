@@ -5,11 +5,11 @@ title: Progressive Enhancement
 
 # Progressive Enhancement
 
-A basic, functional, experience is delivered to everyone; JavaScript is not required for any key functionality. Feature tests in JavaScript are used to load in additional CSS and JS enhancements for browsers that pass the tests. It's important that these are treated as an enhancement rather than a fallback: we build a solid foundation and layer on enhancements. Different browsers will be served different experiences; they will be consistent and may be quite similar, but will not be identical.
+A basic, functional, experience is delivered to everyone; JavaScript is not required for any key functionality. Feature tests in JavaScript are used to load in additional CSS and JS enhancements for browsers that pass the tests. It's important that these are treated as an enhancement rather than a fallback: we build a solid foundation and layer on enhancements. Different browsers will be served different experiences; they will be consistent and may be quite similar, but will not be exactly the same.
 
 Rather than grading browsers, we [grade components](https://www.filamentgroup.com/lab/grade-the-components.html). This provides each browser with the best experience it can handle. We use [Strong Progressive Enhancement](http://alexmaughan.com/weak-vs-strong-progressive-enhancement/#content).
 
-[caniuse.com](http://caniuse.com/) is a very handy site: it lists browser support for HTML, CSS, and JavaScript features.
+[caniuse.com](http://caniuse.com/) is a handy site: it lists browser support for HTML, CSS, and JavaScript features.
 
 ## Cutting the Mustard
 

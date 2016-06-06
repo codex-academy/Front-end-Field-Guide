@@ -23,7 +23,7 @@ In practical terms, this means:
 
 Luke Wroblewski has written extensively on [his site](http://www.lukew.com/), and in [his book](http://www.lukew.com/resources/mobile_first.asp), about designing Mobile First. Start with a small screen, and make your content, design, and development decisions there. The thinking behind it is that focusing on mobile gives us the strongest set of constraints and forces us to make difficult decisions early.
 
-Doing Mobile First Responsive Web Design brings some additional benefits: easier support for devices that don't support media queries, usually older mobile devices. Your initial styles are loaded without any media queries. Then, more advanced styles are loaded in using media queries as a qualifier (e.g. `media (min-width: 30em)`).
+Doing Mobile First Responsive Web Design brings some additional benefits: easier support for devices that don't support media queries, usually older mobile devices. Your initial styles are loaded without any media queries. Then, more advanced styles are loaded in using media queries as a qualifier (for example: `media (min-width: 30em)`).
 
 ## Future Friendly
 

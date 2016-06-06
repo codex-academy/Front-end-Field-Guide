@@ -112,7 +112,7 @@ img {
 ```
 
 ^ to let your images shrink to their containers
-`srcset`, `picture`: save data 
+`srcset`, `picture`: save data
 
 
 ---
@@ -219,7 +219,7 @@ mobile gives us the strongest set of constraints
 # modular, reusable,<br>more performant
 
 ^ easier to write
-maintain
+support
 send to user
 
 ---

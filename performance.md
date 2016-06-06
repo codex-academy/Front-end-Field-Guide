@@ -5,7 +5,7 @@ title: Performance
 
 # Performance
 
-Research is currently showing that [latency, not bandwidth, is the toughest constraint affecting network requests](https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/). The load time of a web page is [more affected by number of network requests than the size of the file](http://www.nateberkopec.com/2015/11/05/page-weight-doesnt-matter.html).
+Research is showing that [latency, not bandwidth, is the toughest constraint affecting network requests](https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/). The load time of a web page is [more affected by number of network requests than the size of the file](http://www.nateberkopec.com/2015/11/05/page-weight-doesnt-matter.html).
 
 That means that when we're building a website, we prefer fewer, larger, HTTP requests to many, smaller, ones. It's a bit of a balancing act, though.
 
